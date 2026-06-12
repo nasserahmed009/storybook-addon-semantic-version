@@ -58,6 +58,7 @@
     "storybook-addon-semantic-version": "./dist/cli/build-storybooks.js"
   },
   "scripts": {
+    "prepare": "rollup -c",
     "build": "rollup -c",
     "storybooks:build": "node ./bin/build-storybooks.js",
     "test": "vitest run",
